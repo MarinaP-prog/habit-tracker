@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background: #f9f9f9;
+}
+
+form {
+    max-width: 500px;
+    margin: 1rem auto;
+    background-color: #c7c73f;
+    padding: 6rem;
+    border-radius: 5px;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+input, button {
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add {
+    background-color: #3fc73f;
+}
+
+.show {
+    background-color: #3f3fc7;
+}
+
+.delete {
+    background-color: #c73f3f;
+}
+
+.check {
+    position: absolute;
+    left: 24rem;
+}
+
+.through {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+li button {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    min-width: 200px;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form {
+        max-width: 360px;
+        margin: 0 auto;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    input, button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+
+    .check {
+        left: 9rem;
+    }
+
+    ul {
+        display: contents;
+    }
+
+}
