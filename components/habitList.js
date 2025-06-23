@@ -11,8 +11,8 @@ export function renderHabitList() {
     <h2>Habit list</h2>
     <input data-id="habit-input" placeholder="Habit for today *required">
     <input data-id="desc-input" placeholder="Enter description">
-    <button data-id="add-btn" class="add"><img src="../images/save-48.png">Add new habit</button>
-    <button data-id="show-btn" class="show"><img src="../images/refresh-48.png">Show habits</button>
+    <button data-id="add-btn" class="add"><img src="./images/save-48.png">Add new habit</button>
+    <button data-id="show-btn" class="show"><img src="./images/refresh-48.png">Show habits</button>
     <ul data-id="list" >
     </ul>
     </form>

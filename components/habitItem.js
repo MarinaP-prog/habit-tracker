@@ -13,12 +13,12 @@ export function renderHabitItem(habitList, ul, updateHabits) {
 
     const deleteButton = document.createElement('button');
     const img = document.createElement('img');
-    img.src = '../images/delete-48.png';
+    img.src = './images/delete-48.png';
     deleteButton.appendChild(img);
 
     const checkButton = document.createElement('button');
     const checkImg = document.createElement('img');
-    checkImg.src = '../images/check-mark-48.png';
+    checkImg.src = './images/check-mark-48.png';
     checkButton.classList.add('check');
     checkButton.appendChild(checkImg);
     li.appendChild(span);
